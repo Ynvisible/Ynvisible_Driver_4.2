@@ -128,8 +128,16 @@ void YNV_ECD::setParSwitchTime(int t)
 // Set refresh reduction time
 void YNV_ECD::setRefreshTime(int t)
 {
-  String data = "SETREF:";
+  String data = "SERTIM:";
   data += t;
+  sendData(data);
+}
+
+// Set refresh reduction voltage
+void YNV_ECD::setRefreshVoltage(float v)
+{
+  String data = "SERVOL:";
+  data += v;
   sendData(data);
 }
 

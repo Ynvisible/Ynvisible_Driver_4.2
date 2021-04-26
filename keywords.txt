@@ -15,5 +15,6 @@ setSeqOxiTime	KEYWORD2
 setParVoltage	KEYWORD2
 setParSwitchTime	KEYWORD2
 setRefreshTime	KEYWORD2
+setRefreshVoltage	KEYWORD2
 setSupplyVoltage	KEYWORD2
 setDrivingMethod	KEYWORD2
