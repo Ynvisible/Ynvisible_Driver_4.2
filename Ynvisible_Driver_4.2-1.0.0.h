@@ -29,6 +29,8 @@ class YNV_ECD
 		void setParSwitchTime(int t);
 		void setSupplyVoltage(float v);
 		void setDrivingMethod(char c);
+		void setRefreshTime(int t);
+		void setRefreshVoltage(float v);
 
 	private: 
 		char _address;

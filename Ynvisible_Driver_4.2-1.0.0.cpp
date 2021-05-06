@@ -6,6 +6,7 @@ YNV_ECD::YNV_ECD(char address, int number_of_segments)
 {
   _address = address; 
   _number_of_segments = number_of_segments;
+  Wire.begin();
 }
 
 // Update the dipslay to a new state
